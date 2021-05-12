@@ -7,7 +7,8 @@
     "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack server --config webpack.dev.config.ts"
+        "start": "webpack server --config webpack.dev.config.ts",
+        "build": "webpack --config webpack.prod.config.ts"
     },
     "dependencies": {
         "react": "^17.0.2",
