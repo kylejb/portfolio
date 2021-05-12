@@ -1,25 +1,26 @@
 {
-  "name": "portfolio",
-  "author": "kylejb",
-  "version": "2.0.0",
-  "homepage": "https://www.kyleburda.com",
-  "private": true,
-  "dependencies": {
-    "@styled-icons/ionicons-outline": "^10.28.0",
-    "@styled-icons/ionicons-solid": "^10.28.0",
-    "next": "^11.1.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.2.3",
-    "typescript": "^4.2.4"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "devDependencies": {
-    "babel-plugin-styled-components": "^1.12.0",
-    "react-is": "^17.0.2"
-  }
+    "name": "portfolio",
+    "author": "kylejb",
+    "version": "3.0.0",
+    "main": "webpack.config.js",
+    "homepage": "https://www.kyleburda.com",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.0",
+        "@babel/plugin-transform-runtime": "^7.13.15",
+        "@babel/preset-env": "^7.14.1",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/preset-typescript": "^7.13.0",
+        "@babel/runtime": "^7.14.0",
+        "@types/react": "^17.0.5",
+        "@types/react-dom": "^17.0.4",
+        "typescript": "^4.2.4"
+    }
 }
