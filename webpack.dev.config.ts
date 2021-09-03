@@ -50,11 +50,11 @@ const config: Configuration = {
     ],
     devtool: "inline-source-map",
     devServer: {
-        contentBase: path.join(__dirname, "build"),
         historyApiFallback: true,
-        port: 4000,
+        hot: true,
         open: true,
-        hot: true
+        port: 4000,
+        static: path.join(__dirname, "build"),
     },
 };
 
