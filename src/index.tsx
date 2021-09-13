@@ -1,9 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-const App = () => {
-    return <h1>This is my React App</h1>;
-}
+import App from './App';
 
 ReactDOM.render(
     <React.StrictMode>
